@@ -1,0 +1,108 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+
+}
+
+section>div{
+
+    width: 182px;
+    height: 182px;
+    background-color: purple;
+    border-radius: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 10;
+}
+
+section:nth-child(2)>div{
+    background-color: #64B5F6;
+}
+
+section:nth-child(3)>div{
+    background-color: #FF8F00;
+}
+
+section>div>div>h3{
+
+    color: white;
+    line-height: 30px;
+    text-align: center;
+}
+
+section>div>div{
+
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#box1{
+
+        width: 220px;
+        height: 220px;
+        border-radius: 200px;
+        background-color: white;
+        border: 10px solid red;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 0;
+}
+
+
+#box1>div{
+
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: white;
+        border: 10px solid gray;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 0;
+}
+
+
+#box1>div>div{
+
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+    background-color: white;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 5;
+}
+
